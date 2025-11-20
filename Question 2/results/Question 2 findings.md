@@ -8,10 +8,11 @@ Use sampling and bootstrap methods on the diabetes dataset to understand how sam
 ### 1. Random sample of 25 and comparison of mean and max Glucose
 
 
-  Statistic      Sample Value   Population Value
-  -------------- -------------- ------------------
-  Mean Glucose   130.36         120.8945
-  Max Glucose    197            199
+| Statistic      | Sample Value | Population Value |
+|----------------|--------------|------------------|
+| Mean Glucose   | 130.36       | 120.8945         |
+| Max Glucose    | 197          | 199              |
+
 
 
 
@@ -41,9 +42,9 @@ Use sampling and bootstrap methods on the diabetes dataset to understand how sam
 
 
 
-  Statistic                Sample Value   Population Value
-  ------------------------ -------------- ------------------
-  98th Percentile of BMI   45.264         47.526
+| Statistic              | Sample Value | Population Value |
+|------------------------|--------------|------------------|
+| 98th Percentile of BMI | 45.264       | 47.526           |
 
 
 
@@ -72,14 +73,15 @@ Use sampling and bootstrap methods on the diabetes dataset to understand how sam
 ### 3. Bootstrap (500 Samples of 150 Rows)
 
 
+| Statistic (BloodPressure) | Bootstrap Average | Population Value |
+|---------------------------|--------------------|------------------|
+| Mean                      | 69.1546            | 69.1055          |
+| Standard Deviation        | 19.2049            | 19.356           |
+| 98th Percentile           | 98.0235            | 98.0             |
 
-  Statistic (BloodPressure)   Bootstrap Average   Population Value
-  --------------------------- ------------------- ------------------
-  Mean                        69.1546             69.1055
-  Standard Deviation          19.2049             19.356
-  98th Percentile             98.0235             98.0
 
-  
+
+
 
 **What I did**
 
